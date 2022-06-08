@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return 'AvavaAVA';
-    if (score <= 99) return '给你一拳！';
-    if (score <= 149) return '好兄弟！';
-    if (score <= 199) return '下雨了...';
-    return '也不是不可以啦~';
+    if (score <= 49) return '水平不够';
+    if (score <= 99) return '马马虎虎';
+    if (score <= 149) return '有点水平';
+    if (score <= 199) return '你是这个（大拇指.jpg)';
+    return '孩子们你们喜欢我吗？';
 }
 
 function toStr(obj) {
